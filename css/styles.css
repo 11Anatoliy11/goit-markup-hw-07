@@ -90,6 +90,11 @@ ul {
   margin-left: 93px;
 }
 
+.nav__link.current {
+  display: flex;
+  color: var(--accent-color);
+}
+
 .nav__item.current::after {
   display: block;
   content: "";
