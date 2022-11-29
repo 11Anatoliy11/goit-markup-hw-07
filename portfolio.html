@@ -19,237 +19,254 @@
   <link rel="stylesheet"
         href="./css/styles.css"> 
   <link rel="stylesheet" 
-        href="./dist/css/main.min.css">
+        href="./css/main.min.css">
   <title>WebStudio</title>
 </head>
 
 <body>
   <!--page header-->
-  <header class="header">
-    <div class="container">
-      <div class="header-nav">
-        <nav class="nav">
-          <a href="/"
-            class="logo">
-            <span class="logo__link">Web</span>Studio
-          </a>
-          <ul class="nav-pages">
-            <li class="nav-pages__item ">
-              <a href="./index.html"
-                class="nav-pages__link "> Студія
-              </a>
-            </li>
-            <li class="nav-pages__item current">
-              <a href="./portfolio.html"
-                class="nav-pages__link current"> Портфоліо
-              </a>
-            </li>
-            <li class="nav-pages__item">
-              <a href="/"
-                class="nav-pages__link"> Контакти
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <ul class="connection">
-          <li class="connection__item">
-            <a class="connection__link"
-              href="mailto://info@devstudio.com">
-              <svg class="connection__icon">
-                <use href="./images/symbol-defs.svg#icon-envelope"></use>
-              </svg>
-              info@devstudio.com
+  <header>
+    <section class="header">
+      <div class="container header-nav">
+          <nav class="nav">
+            <a href="/"
+              class="logo">
+              <span class="logo__link">Web</span>Studio
             </a>
-          </li>
-          <li class="connection__item">
-            <a class="connection__link"
-              href="tel:+380961111111">
-              <svg class="connection__icon">
-                <use href="./images/symbol-defs.svg#icon-smartphone"></use>
-              </svg>
-              +38 096 111 11 11
-            </a>
-          </li>
-        </ul>        
+            <ul class="nav__pages">
+              <li class="nav__item">
+                <a href="/"
+                  class="nav__link"> Студія
+                </a>
+              </li>
+              <li class="nav__item current">
+                <a href="./portfolio.html"
+                  class="nav__link current"> Портфоліо
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="/"
+                  class="nav__link"> Контакти
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="connection">
+            <li class="connection__item">
+              <a class="connection__link"
+                href="mailto://info@devstudio.com">
+                <svg class="connection__icon">
+                  <use href="./images/symbol-defs.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com
+              </a>
+            </li>
+            <li class="connection__item">
+              <a class="connection__link"
+                href="tel:+380961111111">
+                <svg class="connection__icon">
+                  <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+                </svg>
+                +38 096 111 11 11
+              </a>
+            </li>
+          </ul>        
       </div>
-
-    </div>
+    </section>
   </header>
   <!--portfolio-->
   <main>
-    <section class="portfolio">
+    <section class="section-portfolio">
       <!-- filter -->
       <div class="container">
-        <ul class="works">
-          <li class="item">
+        <ul class="filter">
+          <li class="filter__item">
             <button type="button"
-                    class="button filter first">Усі</button>
+                    class="filter__button first">Усі</button>
           </li>
-          <li class="item">
+          <li class="filter__item">
             <button type="button"
-                    class="button filter">Веб-сайти</button>
+                    class="filter__button">Веб-сайти</button>
           </li>
-          <li class="item">
+          <li class="filter__item">
             <button type="button"
-                    class="button filter">Додатки</button>
+                    class="filter__button">Додатки</button>
           </li>
-          <li class="item">
+          <li class="filter__item">
             <button type="button"
-                    class="button filter">Дизайн</button>
+                    class="filter__button">Дизайн</button>
           </li>
-          <li class="item">
+          <li class="filter__item">
             <button type="button"
-                    class="button filter">Маркетинг</button>
+                    class="filter__button">Маркетинг</button>
           </li>
         </ul>
         <!-- project -->
         <h2 class="hide">Портфоліо</h2>
-        <ul class="section-portfolio">
-          <li class="item">
-            <div class="portfolio-item">
-              <img src="images/img_tehno.jpg"
-                   alt="picture"
-                   class="portfolio-img">
-              <div class="overflow">
-                "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
-                відвідувачу
-                отримати вичерпні відомості про компанію чи приватну особу."
+        <ul class="work">
+          <li class="card">
+            <a href="" class="card__wrap">
+              <div class="card__item">
+                <img src="images/img_tehno.jpg"
+                    alt="picture"
+                    class="card__images">
+                <div class="overflow">
+                  "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
+                  відвідувачу
+                  отримати вичерпні відомості про компанію чи приватну особу."
+                </div>
               </div>
-            </div>
-            <div class="portfolio-project">
-              <p class="section-work">Технокряк</p>
-              <p class="section-project">Веб-сайт</p>
-            </div>
+              <div class="card__project">
+                <p class="card__title">Технокряк</p>
+                <p class="card__description">Веб-сайт</p>
+              </div>              
+            </a>
           </li>
-          <li class="item">
-            <div class="portfolio-item">
-              <img src="images/img_orlean.jpg"
-                   alt="picture"
-                   class="portfolio-img">
-              <div class="overflow">
-                "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
-                відвідувачу
-                отримати вичерпні відомості про компанію чи приватну особу."
+          <li class="card">
+            <a href="" class="card__wrap">
+              <div class="card__item">
+                <img src="images/img_orlean.jpg"
+                    alt="picture"
+                    class="card__images">
+                <div class="overflow">
+                  "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
+                  відвідувачу
+                  отримати вичерпні відомості про компанію чи приватну особу."
+                </div>
               </div>
-            </div>
-            <div class="portfolio-project">
-              <p class="section-work">Постер <span lang="en">New Orlean vs Golden Star</span> </p>
-              <p class="section-project">Дизайн</p>
-            </div>
+              <div class="card__project">
+                <p class="card__title">Постер <span lang="en">New Orlean vs Golden Star</span> </p>
+                <p class="card__description">Дизайн</p>
+              </div>
+            </a>
           </li>
-          <li class="item">
-            <div class="portfolio-item">
-              <img src="images/img_seaf.jpg"
-                   alt="picture"
-                   class="portfolio-img">
-              <div class="overflow">
-                "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
-                відвідувачу
-                отримати вичерпні відомості про компанію чи приватну особу."
+          <li class="card">
+            <a href="" class="card__wrap">
+              <div class="card__item">
+                <img src="images/img_seaf.jpg"
+                    alt="picture"
+                    class="card__images">
+                <div class="overflow">
+                  "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
+                  відвідувачу
+                  отримати вичерпні відомості про компанію чи приватну особу."
+                </div>
               </div>
-            </div class="portfolio-project">
-            <div class="portfolio-project">
-              <p class="section-work">Ресторан <span lang="en">Seafood</span></p>
-              <p class="section-project">Додаток</p>
-            </div>
+              <div class="card__project">
+                <p class="card__title">Ресторан <span lang="en">Seafood</span></p>
+                <p class="card__description">Додаток</p>
+              </div>
+            </a>
           </li>
-          <li class="item">
-            <div class="portfolio-item">
-              <img src="images/img_prime.jpg"
-                   alt="picture"
-                   class="portfolio-img">
-              <div class="overflow">
-                "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
-                відвідувачу
-                отримати вичерпні відомості про компанію чи приватну особу."
+          <li class="card">
+            <a href="" class="card__wrap">
+              <div class="card__item">
+                <img src="images/img_prime.jpg"
+                    alt="picture"
+                    class="card__images">
+                <div class="overflow">
+                  "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
+                  відвідувачу
+                  отримати вичерпні відомості про компанію чи приватну особу."
+                </div>
               </div>
-            </div>
-            <div class="portfolio-project">
-              <p class="section-work">Проєкт <span lang="en">Prime</span></p>
-              <p class="section-project">Маркетинг</p>
-            </div>
+              <div class="card__project">
+                <p class="card__title">Проєкт <span lang="en">Prime</span></p>
+                <p class="card__description">Маркетинг</p>
+              </div>
+            </a>
           </li>
-          <li class="item">
-            <div class="portfolio-item">
-              <img src="images/img_boxes.jpg"
-                   alt="picture"
-                   class="portfolio-img">
-              <div class="overflow">
-                "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
-                відвідувачу
-                отримати вичерпні відомості про компанію чи приватну особу."
+          <li class="card">
+            <a href="" class="card__wrap">
+              <div class="card__item">
+                <img src="images/img_boxes.jpg"
+                    alt="picture"
+                    class="card__images">
+                <div class="overflow">
+                  "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
+                  відвідувачу
+                  отримати вичерпні відомості про компанію чи приватну особу."
+                </div>
               </div>
-            </div>
-            <div class="portfolio-project">
-              <p class="section-work">Проєкт <span lang="en">Boxes</span></p>
-              <p class="section-project">Додаток</p>
-            </div>
+              <div class="card__project">
+                <p class="card__title">Проєкт <span lang="en">Boxes</span></p>
+                <p class="card__description">Додаток</p>
+              </div>
+            </a>
           </li>
-          <li class="item">
-            <div class="portfolio-item">
-              <img src="images/img_inspir.jpg"
-                   alt="picture"
-                   class="portfolio-img">
-              <div class="overflow">
-                "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
-                відвідувачу
-                отримати вичерпні відомості про компанію чи приватну особу."
+          <li class="card">
+            <a href="" class="card__wrap">
+              <div class="card__item">
+                <img src="images/img_inspir.jpg"
+                    alt="picture"
+                    class="card__images">
+                <div class="overflow">
+                  "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
+                  відвідувачу
+                  отримати вичерпні відомості про компанію чи приватну особу."
+                </div>
               </div>
-            </div>
-            <div class="portfolio-project">
-              <p lang="en"
-                 class="section-work">Inspiration has no Borders</p>
-              <p class="section-project">Веб-сайт</p>
-            </div>
+              <div class="card__project">
+                <p lang="en"
+                  class="card__title">Inspiration has no Borders</p>
+                <p class="card__description">Веб-сайт</p>
+              </div>
+            </a>
           </li>
-          <li class="item">
-            <div class="portfolio-item">
-              <img src="images/img_limit.jpg"
-                   alt="picture"
-                   class="portfolio-img">
-              <div class="overflow">
-                "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
-                відвідувачу
-                отримати вичерпні відомості про компанію чи приватну особу."
+          <li class="card">
+            <a href="" class="card__wrap">
+              <div class="card__item">
+                <img src="images/img_limit.jpg"
+                    alt="picture"
+                    class="card__images">
+                <div class="overflow">
+                  "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
+                  відвідувачу
+                  отримати вичерпні відомості про компанію чи приватну особу."
+                </div>
               </div>
-            </div>
-            <div class="portfolio-project">
-              <p class="section-work">Видання <span lang="en">Limited Edition</span></p>
-              <p class="section-project">Дизайн</p>
-            </div>
+              <div class="card__project">
+                <p class="card__title">Видання <span lang="en">Limited Edition</span></p>
+                <p class="card__description">Дизайн</p>
+              </div>
+            </a>
           </li>
-          <li class="item">
-            <div class="portfolio-item">
-              <img src="images/img_lab.jpg"
-                   alt="picture"
-                   class="portfolio-img">
-              <div class="overflow">
-                "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
-                відвідувачу
-                отримати вичерпні відомості про компанію чи приватну особу."
+          <li class="card">
+            <a href="" class="card__wrap">
+              <div class="card__item">
+                <img src="images/img_lab.jpg"
+                    alt="picture"
+                    class="card__images">
+                <div class="overflow">
+                  "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
+                  відвідувачу
+                  отримати вичерпні відомості про компанію чи приватну особу."
+                </div>
               </div>
-            </div>
-            <div class="portfolio-project">
-              <p class="section-work">Проєкт <span lang="en">LAB</span></p>
-              <p class="section-project">Маркетинг</p>
-            </div>
+              <div class="card__project">
+                <p class="card__title">Проєкт <span lang="en">LAB</span></p>
+                <p class="card__description">Маркетинг</p>
+              </div>
+           </a>
           </li>
-          <li class="item">
-            <div class="portfolio-item">
-              <img src="images/img_busin.jpg"
-                   alt="picture"
-                   class="portfolio-img">
-              <div class="overflow">
-                "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
-                відвідувачу
-                отримати вичерпні відомості про компанію чи приватну особу."
+          <li class="card">
+            <a href="" class="card__wrap">
+              <div class="card__item">
+                <img src="images/img_busin.jpg"
+                    alt="picture"
+                    class="card__images">
+                <div class="overflow">
+                  "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
+                  відвідувачу
+                  отримати вичерпні відомості про компанію чи приватну особу."
+                </div>
               </div>
-            </div>
-            <div class="portfolio-project">
-              <p lang="en"
-                 class="section-work">Growing Business</p>
-              <p class="section-project">Додаток</p>
-            </div>
+              <div class="card__project">
+                <p lang="en"
+                  class="card__title">Growing Business</p>
+                <p class="card__description">Додаток</p>
+              </div>
+            </a>
           </li>
         </ul>
       </div>
@@ -259,7 +276,7 @@
   <footer class="footer">
     <div class="container footer-container">
       <div class="basement">
-        <div class="footer-logo">
+        <div class="basement-logo">
           <a href="/"
           class="logo">
           <span class="logo__link">Web</span><span class="logo__text">Studio

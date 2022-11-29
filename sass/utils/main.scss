@@ -1,0 +1,17 @@
+@import './variables';
+@import '../layout/header';
+@import '../layout/hero';
+@import '../layout/features';
+@import '../layout/products';
+@import '../layout/command';
+@import '../layout/customers';
+@import '../layout/footer';
+@import '../layout/modal';
+@import '../layout/portfolio';
+@import '../base/comon';
+@import '../base/reset';
+
+
+.text { 
+    color: $accent; 
+}
