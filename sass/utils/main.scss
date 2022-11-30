@@ -1,17 +1,13 @@
 @import './variables';
-@import '../layout/header';
-@import '../layout/hero';
-@import '../layout/features';
-@import '../layout/products';
-@import '../layout/command';
-@import '../layout/customers';
-@import '../layout/footer';
-@import '../layout/modal';
-@import '../layout/portfolio';
+@import '../components/header';
+@import '../components/hero';
+@import '../components/features';
+@import '../components/products';
+@import '../components/command';
+@import '../components/customers';
+@import '../components/footer';
+@import '../components/modal';
+@import '../components/portfolio';
 @import '../base/comon';
 @import '../base/reset';
-
-
-.text { 
-    color: $accent; 
-}
+@import '../base/section';

@@ -1,29 +1,18 @@
-h1,
-h2,
-h3,
-p {
-margin: 0;
-}
-
-h2,
-h3 {
-color: var(--title-text-color);
-}
 
 img {
-display: block;
+  display: block;
 }
 
 ul {
-list-style: none;
+  list-style: none;
 }
- 
+
 .hide {
-    margin: 0;
-    opacity: 0;
-    position: absolute;
-  }
+  margin: 0;
+  opacity: 0;
+  position: absolute;
+}
 
 .portfolio {
-    text-decoration: none;
+  text-decoration: none;
 }
