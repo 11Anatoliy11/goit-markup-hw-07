@@ -26,7 +26,7 @@
 <body>
   <!--page header-->
   <header>
-      <div class="container header-nav one">
+      <div class="container header one">
           <nav class="nav">
             <a href="/"
               class="logo">
@@ -54,7 +54,7 @@
             <li class="connection__item">
               <a class="connection__link"
                 href="mailto://info@devstudio.com">
-                <svg class="connection__icon">
+                <svg class="connection__icon" width="16px" height="12px">
                   <use href="./images/symbol-defs.svg#icon-envelope"></use>
                 </svg>
                 info@devstudio.com
@@ -63,7 +63,7 @@
             <li class="connection__item">
               <a class="connection__link"
                 href="tel:+380961111111">
-                <svg class="connection__icon">
+                <svg class="connection__icon" width="10px" height="16px">
                   <use href="./images/symbol-defs.svg#icon-smartphone"></use>
                 </svg>
                 +38 096 111 11 11
@@ -98,11 +98,13 @@
                 <use href="./images/symbol-defs.svg#icon-antenna"></use>
               </svg>
             </div>
-            <h3 class="features-cart__caption">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p class="features-cart__text">
-              Ідейні міркування, і навіть початок повсякденної роботи з
-              формування позиції.
-            </p>
+            <div>
+              <h3 class="features-cart__caption">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="features-cart__text">
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
+              </p>
+            </div>
           </li>
           <li class="features-cart">
             <div class="features-cart__link">
@@ -110,11 +112,13 @@
                 <use href="./images/symbol-defs.svg#icon-clock"></use>
               </svg>
             </div>
-            <h3 class="features-cart__caption">ПУНКТУАЛЬНІСТЬ</h3>
-            <p class="features-cart__text">
-              Завдання організації, особливо рамки і місце навчання кадрів
-              тягне у себе.
-            </p>
+            <div>
+              <h3 class="features-cart__caption">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="features-cart__text">
+                Завдання організації, особливо рамки і місце навчання кадрів
+                тягне у себе.
+              </p>
+            </div>
           </li>
           <li class="features-cart">
             <div class="features-cart__link">
@@ -122,10 +126,12 @@
                 <use href="./images/symbol-defs.svg#icon-diagram"></use>
               </svg>
             </div>
-            <h3 class="features-cart__caption">ПЛАНУВАННЯ</h3>
-            <p class="features-cart__text">
-              Так само консультація з широким активом значною мірою зумовлює.
-            </p>
+            <div>
+              <h3 class="features-cart__caption">ПЛАНУВАННЯ</h3>
+              <p class="features-cart__text">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>              
+            </div>
           </li>
           <li class="features-cart">
             <div class="features-cart__link">
@@ -133,11 +139,13 @@
                 <use href="./images/symbol-defs.svg#icon-astronaut"></use>
               </svg>
             </div>
-            <h3 class="features-cart__caption">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p class="features-cart__text">
-              Значимість цих проблем настільки очевидна, що реалізація
-              планових завдань.
-            </p>
+            <div>
+              <h3 class="features-cart__caption">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="features-cart__text">
+                Значимість цих проблем настільки очевидна, що реалізація
+                планових завдань.
+              </p>
+            </div>
           </li>
         </ul>
       </div>
@@ -180,98 +188,98 @@
             <img src="images/img_user1.jpg"
                  alt="user photo">
             <div class="command__name">
-              <h3 class="command__user">Ігор Дем'яненко</h3>
-              <p lang="en"
-                 class="command__specialty">Product Designer</p>
+                <h3 class="command__user">Ігор Дем'яненко</h3>
+                <p lang="en"
+                  class="command__specialty">Product Designer</p>
+                <!-- messenger -->
+                <ul class="messenger">
+                  <li class="messenger__item">
+                    <a href=""
+                      class="messenger__link">
+                      <svg class="messenger__icon">
+                        <use href="./images/symbol-defs.svg#icon-instagram">
+                        </use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="messenger__item">
+                    <a href=""
+                      class="messenger__link">
+                      <svg class="messenger__icon">
+                        <use href="./images/symbol-defs.svg#icon-twitter">
+                        </use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="messenger__item">
+                    <a href=""
+                      class="messenger__link">
+                      <svg class="messenger__icon">
+                        <use href="./images/symbol-defs.svg#icon-facebook">
+                        </use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="messenger__item">
+                    <a href=""
+                      class="messenger__link">
+                      <svg class="messenger__icon">
+                        <use href="./images/symbol-defs.svg#icon-linkedin">
+                        </use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
             </div>
-            <!-- messenger -->
-            <ul class="messenger">
-              <li class="messenger__item">
-                <a href=""
-                   class="messenger__link">
-                  <svg class="messenger__icon">
-                    <use href="./images/symbol-defs.svg#icon-instagram">
-                    </use>
-                  </svg>
-                </a>
-              </li>
-              <li class="messenger__item">
-                <a href=""
-                   class="messenger__link">
-                  <svg class="messenger__icon">
-                    <use href="./images/symbol-defs.svg#icon-twitter">
-                    </use>
-                  </svg>
-                </a>
-              </li>
-              <li class="messenger__item">
-                <a href=""
-                   class="messenger__link">
-                  <svg class="messenger__icon">
-                    <use href="./images/symbol-defs.svg#icon-facebook">
-                    </use>
-                  </svg>
-                </a>
-              </li>
-              <li class="messenger__item">
-                <a href=""
-                   class="messenger__link">
-                  <svg class="messenger__icon">
-                    <use href="./images/symbol-defs.svg#icon-linkedin">
-                    </use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
           </li>
           <li class="command__images">
             <img src="images/img_user2.jpg"
                  alt="user photo">
             <div class="command__name">
-              <h3 class="command__user">Ольга Рєпіна</h3>
-              <p lang="en"
-                 class="command__specialty">Frontend Developer
-              </p>
-            </div>
-            <!-- messenger -->
-            <ul class="messenger">
-              <li class="messenger__item">
-                <a href=""
-                   class="messenger__link">
-                  <svg class="messenger__icon">
-                    <use href="./images/symbol-defs.svg#icon-instagram">
-                    </use>
-                  </svg>
-                </a>
-              </li>
-              <li class="messenger__item">
-                <a href=""
-                   class="messenger__link">
-                  <svg class="messenger__icon">
-                    <use href="./images/symbol-defs.svg#icon-twitter">
-                    </use>
-                  </svg>
-                </a>
-              </li>
-              <li class="messenger__item">
-                <a href=""
-                   class="messenger__link">
-                  <svg class="messenger__icon">
-                    <use href="./images/symbol-defs.svg#icon-facebook">
-                    </use>
-                  </svg>
-                </a>
-              </li>
-              <li class="messenger__item">
-                <a href=""
-                   class="messenger__link">
-                  <svg class="messenger__icon">
-                    <use href="./images/symbol-defs.svg#icon-linkedin">
-                    </use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
+                <h3 class="command__user">Ольга Рєпіна</h3>
+                <p lang="en"
+                  class="command__specialty">Frontend Developer
+                </p>
+                <!-- messenger -->
+                <ul class="messenger">
+                  <li class="messenger__item">
+                    <a href=""
+                      class="messenger__link">
+                      <svg class="messenger__icon">
+                        <use href="./images/symbol-defs.svg#icon-instagram">
+                        </use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="messenger__item">
+                    <a href=""
+                      class="messenger__link">
+                      <svg class="messenger__icon">
+                        <use href="./images/symbol-defs.svg#icon-twitter">
+                        </use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="messenger__item">
+                    <a href=""
+                      class="messenger__link">
+                      <svg class="messenger__icon">
+                        <use href="./images/symbol-defs.svg#icon-facebook">
+                        </use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="messenger__item">
+                    <a href=""
+                      class="messenger__link">
+                      <svg class="messenger__icon">
+                        <use href="./images/symbol-defs.svg#icon-linkedin">
+                        </use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+          </div>
           </li>
           <li class="command__images">
             <img src="images/img_user3.jpg"
@@ -281,46 +289,46 @@
               <p lang="en"
                  class="command__specialty">Marketing
               </p>
+              <!-- messenger -->
+              <ul class="messenger">
+                <li class="messenger__item">
+                  <a href=""
+                    class="messenger__link">
+                    <svg class="messenger__icon">
+                      <use href="./images/symbol-defs.svg#icon-instagram">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="messenger__item">
+                  <a href=""
+                    class="messenger__link">
+                    <svg class="messenger__icon">
+                      <use href="./images/symbol-defs.svg#icon-twitter">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="messenger__item">
+                  <a href=""
+                    class="messenger__link">
+                    <svg class="messenger__icon">
+                      <use href="./images/symbol-defs.svg#icon-facebook">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="messenger__item">
+                  <a href=""
+                    class="messenger__link">
+                    <svg class="messenger__icon">
+                      <use href="./images/symbol-defs.svg#icon-linkedin">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
             </div>
-            <!-- messenger -->
-            <ul class="messenger">
-              <li class="messenger__item">
-                <a href=""
-                   class="messenger__link">
-                  <svg class="messenger__icon">
-                    <use href="./images/symbol-defs.svg#icon-instagram">
-                    </use>
-                  </svg>
-                </a>
-              </li>
-              <li class="messenger__item">
-                <a href=""
-                   class="messenger__link">
-                  <svg class="messenger__icon">
-                    <use href="./images/symbol-defs.svg#icon-twitter">
-                    </use>
-                  </svg>
-                </a>
-              </li>
-              <li class="messenger__item">
-                <a href=""
-                   class="messenger__link">
-                  <svg class="messenger__icon">
-                    <use href="./images/symbol-defs.svg#icon-facebook">
-                    </use>
-                  </svg>
-                </a>
-              </li>
-              <li class="messenger__item">
-                <a href=""
-                   class="messenger__link">
-                  <svg class="messenger__icon">
-                    <use href="./images/symbol-defs.svg#icon-linkedin">
-                    </use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
           </li>
           <li class="command__images">
             <img src="images/img_user4.jpg"
@@ -330,46 +338,46 @@
               <p lang="en"
                  class="command__specialty">UI Designer
               </p>
-            </div>
-            <!-- messenger -->
-            <ul class="messenger">
-              <li class="messenger__item">
-                <a href=""
-                   class="messenger__link">
-                  <svg class="messenger__icon">
-                    <use href="./images/symbol-defs.svg#icon-instagram">
-                    </use>
-                  </svg>
-                </a>
-              </li>
-              <li class="messenger__item">
-                <a href=""
-                   class="messenger__link">
-                  <svg class="messenger__icon">
-                    <use href="./images/symbol-defs.svg#icon-twitter">
-                    </use>
-                  </svg>
-                </a>
-              </li>
-              <li class="messenger__item">
-                <a href=""
-                   class="messenger__link">
-                  <svg class="messenger__icon">
-                    <use href="./images/symbol-defs.svg#icon-facebook">
-                    </use>
-                  </svg>
-                </a>
-              </li>
-              <li class="messenger__item">
-                <a href=""
-                   class="messenger__link">
-                  <svg class="messenger__icon">
-                    <use href="./images/symbol-defs.svg#icon-linkedin">
-                    </use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
+              <!-- messenger -->
+              <ul class="messenger">
+                <li class="messenger__item">
+                  <a href=""
+                    class="messenger__link">
+                    <svg class="messenger__icon">
+                      <use href="./images/symbol-defs.svg#icon-instagram">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="messenger__item">
+                  <a href=""
+                    class="messenger__link">
+                    <svg class="messenger__icon">
+                      <use href="./images/symbol-defs.svg#icon-twitter">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="messenger__item">
+                  <a href=""
+                    class="messenger__link">
+                    <svg class="messenger__icon">
+                      <use href="./images/symbol-defs.svg#icon-facebook">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="messenger__item">
+                  <a href=""
+                    class="messenger__link">
+                    <svg class="messenger__icon">
+                      <use href="./images/symbol-defs.svg#icon-linkedin">
+                      </use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+          </div>
           </li>
         </ul>
       </div>
@@ -465,8 +473,8 @@
             </ul>  
           </address>
         </div>
-        <div class="futtor-messenger">
-          <p class="futtor-messenger__text">ПРИЄДНУЙТЕСЬ</p>
+        <div class="footer-messenger">
+          <p class="footer-messenger__text">ПРИЄДНУЙТЕСЬ</p>
               <!-- messenger -->
               <ul class="messenger messenger--inverse">
                 <li class="messenger__item">
@@ -508,7 +516,7 @@
               </ul>
         </div>
         <div class="footer-email">
-          <p class="futtor-messenger__text">ПІДПИШИТЬСЯ НА РОЗСИЛКУ</p>
+          <p class="footer-messenger__text">ПІДПИШИТЬСЯ НА РОЗСИЛКУ</p>
           <div class="email">
             <form action="form"
                   class="email__item">

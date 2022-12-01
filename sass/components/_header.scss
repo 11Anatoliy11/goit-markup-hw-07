@@ -1,4 +1,4 @@
-.header-nav {
+.header {
     display: flex;
     align-items: center;
     border-bottom: 1px solid #ececec;
@@ -15,14 +15,16 @@
     &__pages {
         display: flex;
         padding: 0;
-        margin: -25px;
+        margin: 0;
         margin-left: 93px;
+        gap: 50px;
+
     }
 
     &__link {
         display: block;
         padding-top: 32px;
-        padding-bottom: 32px;
+        padding-bottom: 28px;
         line-height: 1.17;
         letter-spacing: 0.02em;
         text-decoration: none;
@@ -41,7 +43,6 @@
     }
 
     &__item {
-        margin: 25px;
         &.current::after {
             display: block;
             content: "";

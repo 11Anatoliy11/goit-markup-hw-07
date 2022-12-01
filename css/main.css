@@ -10,12 +10,12 @@ h3 {
   color: #212121;
 }
 
-.header-nav {
+.header {
   display: flex;
   align-items: center;
   border-bottom: 1px solid #ececec;
 }
-.header-nav.one {
+.header.one {
   border-bottom: 0;
 }
 
@@ -26,13 +26,14 @@ h3 {
 .nav__pages {
   display: flex;
   padding: 0;
-  margin: -25px;
+  margin: 0;
   margin-left: 93px;
+  gap: 50px;
 }
 .nav__link {
   display: block;
   padding-top: 32px;
-  padding-bottom: 32px;
+  padding-bottom: 28px;
   line-height: 1.17;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -45,9 +46,6 @@ h3 {
 .nav__link .current {
   display: flex;
   color: #2196f3;
-}
-.nav__item {
-  margin: 25px;
 }
 .nav__item.current::after {
   display: block;
@@ -97,13 +95,13 @@ h3 {
   color: #757575;
 }
 .section-features .features {
-  margin: 0 -15px;
+  margin: 0;
   padding: 0;
+  justify-content: space-between;
   display: flex;
 }
 .section-features .features .features-cart {
   width: 270px;
-  margin: 0 15px;
 }
 .section-features .features .features-cart__link {
   justify-content: center;
@@ -140,13 +138,13 @@ h3 {
   width: 370px;
 }
 .section-products .products {
+  justify-content: space-between;
   display: flex;
-  margin: -15px;
+  margin: 0;
   padding: 0;
 }
 .section-products .products__images {
   position: relative;
-  margin: 15px;
 }
 .section-products .products__caption {
   position: absolute;
@@ -172,13 +170,14 @@ h3 {
   width: 270px;
 }
 .section-command .command {
+  justify-content: space-between;
   display: flex;
-  margin: -15px;
+  margin: 0;
   padding: 0;
 }
 .section-command .command__images {
   width: 270px;
-  margin: 15px;
+  margin: 0;
   flex-direction: column;
   align-content: center;
   display: flex;
@@ -187,7 +186,7 @@ h3 {
   background-color: #ffffff;
 }
 .section-command .command__name {
-  padding: 30px 60px 16px;
+  padding: 30px 32px;
 }
 .section-command .command__user {
   margin-bottom: 10px;
@@ -198,6 +197,7 @@ h3 {
   letter-spacing: 0.03em;
 }
 .section-command .command__specialty {
+  margin-bottom: 16px;
   text-align: center;
   font-weight: 400;
   font-size: 16px;
@@ -209,13 +209,10 @@ h3 {
   padding: 94px 0;
 }
 .customers .compani {
-  justify-content: center;
+  justify-content: space-between;
   display: flex;
-  margin: -15px;
+  margin: 0;
   padding: 0;
-}
-.customers .compani__item {
-  margin: 15px;
 }
 .customers .compani__link {
   color: #afb1b8;
@@ -265,13 +262,13 @@ h3 {
   text-decoration: none;
   color: #ffffff;
 }
-.footer .basement .futtor-messenger {
+.footer .basement .footer-messenger {
   justify-content: flex-start;
   padding: 0;
-  margin: 0 0 0 70px;
+  margin-left: 70px;
 }
-.footer .basement .futtor-messenger__text {
-  margin: 0 0 20px;
+.footer .basement .footer-messenger__text {
+  margin-bottom: 20px;
   padding: 0;
   align-items: center;
   color: #ffffff;
@@ -515,14 +512,11 @@ h3 {
   margin: 0;
 }
 .section-portfolio .filter {
-  margin: -4px;
+  gap: 8px;
   margin-bottom: 50px;
   padding: 0;
   justify-content: center;
   display: flex;
-}
-.section-portfolio .filter__item {
-  margin: 4px;
 }
 .section-portfolio .filter__button.first {
   padding: 6px 25px;
@@ -633,6 +627,13 @@ img {
 
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
 }
 
 .hide {
@@ -660,21 +661,21 @@ ul {
 .connection {
   display: flex;
   padding: 0;
-  margin: -15px;
+  margin: 0;
   margin-left: auto;
+  gap: 30px;
 }
 .connection--inverse {
   flex-direction: column;
   padding: 0;
   margin: 0;
-}
-.connection__item {
-  margin: 15px;
+  gap: 0;
 }
 .connection__item .connection__link {
   align-items: center;
   display: flex;
-  padding: 32px 0;
+  padding-top: 32px;
+  padding-bottom: 28px;
   margin-top: 0;
   margin-bottom: 0;
   line-height: 1.17;
@@ -690,8 +691,7 @@ ul {
 }
 .connection__item .connection__link--inverse {
   padding: 0;
-  margin-top: 0;
-  margin-bottom: 0px;
+  margin: 0;
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
@@ -702,8 +702,6 @@ ul {
   color: #2196f3;
 }
 .connection__item .connection__icon {
-  height: 12px;
-  width: 16px;
   margin-right: 10px;
 }
 .connection__item--inverse {
@@ -727,16 +725,13 @@ ul {
 }
 
 .messenger {
-  justify-content: center;
+  justify-content: space-between;
   display: flex;
-  margin: -5px;
-  padding: 0 30px 30px 30px;
+  padding: 0;
 }
 .messenger--inverse {
   padding: 0;
-}
-.messenger__item {
-  margin: 5px;
+  gap: 10px;
 }
 .messenger__link {
   height: 44px;

@@ -6,13 +6,13 @@
   color: $primari-text-color;
 
   .features {
-    margin: 0 -15px;
+    margin: 0;
     padding: 0;
+    justify-content: space-between;
     display: flex;
 
     .features-cart {
       width: 270px;
-      margin: 0 15px;
 
       &__link {
         justify-content: center;

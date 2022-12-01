@@ -28,18 +28,20 @@
       }
     }
 
-    .futtor-messenger {
+    .footer-messenger {
       justify-content: flex-start;
       padding: 0;
-      margin: 0 0 0 70px;
+      margin-left: 70px;
+
+      &__text {
+        margin-bottom: 20px;
+        padding: 0;
+        align-items: center;
+        color: $white;
+      }
     }
 
-    .futtor-messenger__text {
-      margin: 0 0 20px;
-      padding: 0;
-      align-items: center;
-      color: $white;
-    }
+
 
     .footer-email {
       margin-left: auto;

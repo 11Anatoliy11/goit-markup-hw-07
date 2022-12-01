@@ -10,13 +10,14 @@
   }
 
   .command {
+    justify-content: space-between;
     display: flex;
-    margin: -15px;
+    margin: 0;
     padding: 0;
 
     &__images {
       width: 270px;
-      margin: 15px;
+      margin: 0;
       flex-direction: column;
       align-content: center;
       display: flex;
@@ -26,7 +27,7 @@
     }
 
     &__name {
-      padding: 30px 60px 16px;
+      padding: 30px 32px;
     }
 
     &__user {
@@ -39,6 +40,7 @@
     }
 
     &__specialty {
+      margin-bottom: 16px;
       text-align: center;
       font-weight: 400;
       font-size: 16px;

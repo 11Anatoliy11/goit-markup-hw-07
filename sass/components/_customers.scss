@@ -2,14 +2,10 @@
   padding: 94px 0;
 
   .compani {
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
-    margin: -15px;
+    margin: 0;
     padding: 0;
-
-    &__item {
-      margin: 15px;
-    }
 
     &__link {
       color: $border;

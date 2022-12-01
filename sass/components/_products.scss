@@ -7,13 +7,13 @@
   }
 
   .products {
+    justify-content: space-between;
     display: flex;
-    margin: -15px;
+    margin: 0;
     padding: 0;
 
     &__images {
       position: relative;
-      margin: 15px;
     }
 
     &__caption {

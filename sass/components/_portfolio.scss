@@ -3,15 +3,11 @@
     margin: 0;
 
     .filter {
-        margin: -4px;
+        gap: 8px;
         margin-bottom: 50px;
         padding: 0;
         justify-content: center;
         display: flex;
-
-        &__item {
-            margin: 4px;
-        }
 
         &__button.first {
             padding: 6px 25px;
