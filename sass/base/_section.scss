@@ -90,9 +90,9 @@
 }
 
 .messenger {
-  justify-content: space-between;
+  justify-content: center;
   display: flex;
-  // margin: -5px;
+  gap: 10px;
   padding: 0;
 
   &--inverse {

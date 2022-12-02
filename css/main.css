@@ -87,23 +87,23 @@ h3 {
   background-color: #2196f3;
 }
 
-.section-features {
+.features {
   padding: 94px 0;
   margin: 0;
   font-weight: 400;
   letter-spacing: 0.03em;
   color: #757575;
 }
-.section-features .features {
+.features__list {
   margin: 0;
   padding: 0;
   justify-content: space-between;
   display: flex;
 }
-.section-features .features .features-cart {
+.features__item {
   width: 270px;
 }
-.section-features .features .features-cart__link {
+.features__link {
   justify-content: center;
   align-items: center;
   display: flex;
@@ -112,11 +112,11 @@ h3 {
   border-radius: 4px;
   background-color: #f5f4fa;
 }
-.section-features .features .features-cart__link .features-cart__icon {
+.features__icon {
   height: 70px;
   width: 70px;
 }
-.section-features .features .features-cart__caption {
+.features__caption {
   margin-top: 0;
   margin-bottom: 10px;
   font-weight: 700;
@@ -125,28 +125,26 @@ h3 {
   letter-spacing: 0.03em;
   color: #212121;
 }
-.section-features .features .features-cart__text {
+.features__text {
   margin-top: 0;
   margin-bottom: 0px;
 }
 
-.section-products {
+.products {
   margin: 0;
   padding-bottom: 94px;
 }
-.section-products img {
-  width: 370px;
-}
-.section-products .products {
+.products__list {
   justify-content: space-between;
   display: flex;
   margin: 0;
   padding: 0;
 }
-.section-products .products__images {
+.products__images {
+  width: 370px;
   position: relative;
 }
-.section-products .products__caption {
+.products__caption {
   position: absolute;
   width: 370px;
   height: 70px;
@@ -159,23 +157,20 @@ h3 {
   background: rgba(47, 48, 58, 0.8);
 }
 
-.section-command {
+.command {
   margin-top: 0;
   margin-bottom: 0;
   padding: 94px 0;
   letter-spacing: 0.03em;
   background-color: #f5f4fa;
 }
-.section-command img {
-  width: 270px;
-}
-.section-command .command {
+.command__list {
   justify-content: space-between;
   display: flex;
   margin: 0;
   padding: 0;
 }
-.section-command .command__images {
+.command__item {
   width: 270px;
   margin: 0;
   flex-direction: column;
@@ -185,10 +180,10 @@ h3 {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
 }
-.section-command .command__name {
-  padding: 30px 32px;
+.command__name {
+  padding: 30px 0;
 }
-.section-command .command__user {
+.command__user {
   margin-bottom: 10px;
   text-align: center;
   font-weight: 500;
@@ -196,7 +191,7 @@ h3 {
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
-.section-command .command__specialty {
+.command__specialty {
   margin-bottom: 16px;
   text-align: center;
   font-weight: 400;
@@ -208,13 +203,13 @@ h3 {
 .customers {
   padding: 94px 0;
 }
-.customers .compani {
+.customers__list {
   justify-content: space-between;
   display: flex;
   margin: 0;
   padding: 0;
 }
-.customers .compani__link {
+.customers__link {
   color: #afb1b8;
   width: 170px;
   height: 92px;
@@ -225,11 +220,11 @@ h3 {
   border-radius: 4px;
   transition: boborder-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.customers .compani__link:hover, .customers .compani__link:focus {
+.customers__link:hover, .customers__link:focus {
   border-color: #2196f3;
   color: #2196f3;
 }
-.customers .compani__icon {
+.customers__icon {
   fill: currentColor;
   width: 106px;
   height: 60px;
@@ -239,22 +234,22 @@ h3 {
   padding: 60px 0;
   background-color: #2f303a;
 }
-.footer .basement {
+.footer__block {
   display: flex;
   align-items: baseline;
 }
-.footer .basement-logo {
+.footer__logo {
   display: flex;
   flex-direction: column;
 }
-.footer .basement-logo .logo__text {
+.footer .logo__text {
   color: #ffffff;
 }
-.footer .basement-logo .address {
+.footer .address {
   display: flex;
   flex-direction: column;
 }
-.footer .basement-logo .address__text {
+.footer .address__text {
   margin-top: 20px;
   margin-bottom: 9px;
   font-weight: 400;
@@ -262,24 +257,24 @@ h3 {
   text-decoration: none;
   color: #ffffff;
 }
-.footer .basement .footer-messenger {
+.footer__messenger {
   justify-content: flex-start;
   padding: 0;
   margin-left: 70px;
 }
-.footer .basement .footer-messenger__text {
+.footer__text {
   margin-bottom: 20px;
   padding: 0;
   align-items: center;
   color: #ffffff;
 }
-.footer .basement .footer-email {
+.footer__email {
   margin-left: auto;
 }
-.footer .basement .footer-email .email__item {
+.footer .email__item {
   display: flex;
 }
-.footer .basement .footer-email .email__item .email__form input {
+.footer .email__form input {
   height: 50px;
   width: 358px;
   margin-bottom: 0;
@@ -292,20 +287,20 @@ h3 {
   background-color: #2f303a;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer .basement .footer-email .email__item .email__form input:focus-visible {
+.footer .email__form input:focus-visible {
   border: 1px solid rgba(255, 255, 255, 0.3);
   outline: none;
 }
-.footer .basement .footer-email .email__item .email__form input:hover, .footer .basement .footer-email .email__item .email__form input:focus {
+.footer .email__form input:hover, .footer .email__form input:focus {
   border-color: #2196f3;
 }
-.footer .basement .footer-email .email__item .email__icon {
+.footer .email__icon {
   margin-left: 10px;
   width: 24px;
   height: 24px;
   fill: #ffffff;
 }
-.footer .basement .footer-email .email__item .email__button {
+.footer .email__button {
   display: flex;
   align-items: center;
   width: 200px;
@@ -361,13 +356,13 @@ h3 {
   letter-spacing: 0.03em;
   color: #212121;
 }
-.backdrop .modal .form-field {
+.backdrop .modal .form__block {
   display: grid;
   position: relative;
   padding: 0;
   margin: 0;
 }
-.backdrop .modal .form-field__text {
+.backdrop .modal .form__text {
   display: flex;
   margin-bottom: 4px;
   font-weight: 400;
@@ -375,7 +370,7 @@ h3 {
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
-.backdrop .modal .form-field input {
+.backdrop .modal .form input {
   margin-bottom: 10px;
   padding-left: 40px;
   height: 40px;
@@ -383,7 +378,7 @@ h3 {
   border-radius: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.backdrop .modal .form-field__icon {
+.backdrop .modal .form__icon {
   position: absolute;
   margin: 0;
   width: 18px;
@@ -392,35 +387,35 @@ h3 {
   left: 3%;
   display: inline-block;
 }
-.backdrop .modal .form-field__icon:hover {
+.backdrop .modal .form__icon:hover {
   fill: #2196f3;
 }
-.backdrop .modal .form-field textarea {
+.backdrop .modal .form textarea {
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
-.backdrop .modal .form-field__comment {
+.backdrop .modal .form__comment {
   width: 448px;
   height: 120px;
   padding: 12px 16px;
   margin-bottom: 20px;
 }
-.backdrop .modal .form-field input:hover,
-.backdrop .modal .form-field textarea:hover,
-.backdrop .modal .form-field input:focus,
-.backdrop .modal .form-field textarea:focus {
+.backdrop .modal .form input:hover,
+.backdrop .modal .form textarea:hover,
+.backdrop .modal .form input:focus,
+.backdrop .modal .form textarea:focus {
   border-color: #2196f3;
 }
-.backdrop .modal .form-field input:hover + .form-field__icon,
-.backdrop .modal .form-field textarea:hover + .form-field__icon,
-.backdrop .modal .form-field input:focus + .form-field__icon,
-.backdrop .modal .form-field textarea:focus + .form-field__icon {
+.backdrop .modal .form input:hover + .form__icon,
+.backdrop .modal .form textarea:hover + .form__icon,
+.backdrop .modal .form input:focus + .form__icon,
+.backdrop .modal .form textarea:focus + .form__icon {
   fill: #2196f3;
 }
-.backdrop .modal .form-field input:focus-visible,
-.backdrop .modal .form-field textarea:focus-visible {
+.backdrop .modal .form input:focus-visible,
+.backdrop .modal .form textarea:focus-visible {
   border-color: #2196f3;
   outline: none;
 }
@@ -443,6 +438,8 @@ h3 {
   color: #2196f3;
 }
 .backdrop .modal .form .checkbox__input {
+  margin: 0;
+  padding: 0;
   opacity: 0;
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -481,7 +478,7 @@ h3 {
   color: #ffffff;
   background-color: #2196f3;
 }
-.backdrop .modal .modal__button {
+.backdrop .modal__button {
   position: absolute;
   width: 30px;
   height: 30px;
@@ -494,12 +491,12 @@ h3 {
   border-radius: 50%;
   background-color: transparent;
 }
-.backdrop .modal .modal__button .modal__link {
+.backdrop .modal__button .modal__link {
   width: 18px;
   height: 18px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.backdrop .modal .modal__button:hover .modal__link, .backdrop .modal .modal__button:focus .modal__link {
+.backdrop .modal__button:hover .modal__link, .backdrop .modal__button:focus .modal__link {
   fill: #2196f3;
 }
 .backdrop.is-hidden {
@@ -507,21 +504,19 @@ h3 {
   pointer-events: none;
 }
 
-.section-portfolio {
+.portfolio {
   padding: 94px 0;
   margin: 0;
 }
-.section-portfolio .filter {
+.portfolio .filter__list {
   gap: 8px;
   margin-bottom: 50px;
   padding: 0;
   justify-content: center;
   display: flex;
 }
-.section-portfolio .filter__button.first {
-  padding: 6px 25px;
-}
-.section-portfolio .filter__button {
+.portfolio .filter__button {
+  min-width: 73px;
   padding: 6px 22px;
   font-family: inherit;
   font-weight: inherit;
@@ -535,41 +530,41 @@ h3 {
   background-color: #f5f4fa;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.section-portfolio .filter__button:hover, .section-portfolio .filter__button:focus {
+.portfolio .filter__button:hover, .portfolio .filter__button:focus {
   color: #ffffff;
   background-color: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-.section-portfolio .work {
+.portfolio .work__list {
   padding: 0;
   margin: -15px;
   display: flex;
   flex-wrap: wrap;
 }
-.section-portfolio .work .card {
+.portfolio .work__item {
   width: 370px;
   margin: 15px;
   border: 1px solid #eeeeee;
 }
-.section-portfolio .work .card__wrap {
+.portfolio .work__link {
   display: block;
   text-decoration: none;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.section-portfolio .work .card__wrap:hover, .section-portfolio .work .card__wrap:focus {
+.portfolio .work__link:hover, .portfolio .work__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.section-portfolio .work .card__wrap:hover .overflow, .section-portfolio .work .card__wrap:focus .overflow {
+.portfolio .work__link:hover .work__overflow, .portfolio .work__link:focus .work__overflow {
   transform: translateY(0);
 }
-.section-portfolio .work .card__item {
+.portfolio .work__link--block {
   overflow: hidden;
   position: relative;
 }
-.section-portfolio .work .card__item .card__images {
+.portfolio .work__images {
   display: block;
 }
-.section-portfolio .work .card__item .overflow {
+.portfolio .work__overflow {
   position: absolute;
   width: 100%;
   top: 0;
@@ -583,10 +578,10 @@ h3 {
   transform: translateY(103%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.section-portfolio .work .card__project {
+.portfolio .work__wrapper {
   padding: 20px 24px;
 }
-.section-portfolio .work .card__project .card__title {
+.portfolio .work__title {
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -594,7 +589,7 @@ h3 {
   letter-spacing: 0.06em;
   color: #212121;
 }
-.section-portfolio .work .card__project .card__description {
+.portfolio .work__description {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
@@ -725,8 +720,9 @@ li {
 }
 
 .messenger {
-  justify-content: space-between;
+  justify-content: center;
   display: flex;
+  gap: 10px;
   padding: 0;
 }
 .messenger--inverse {
